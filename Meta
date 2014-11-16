@@ -24,6 +24,8 @@ devel:
 requires:
   perl: 5.8.1
 
+branch: zild
+
 =zild:
   libname: Acme::Math::XS
   inline:

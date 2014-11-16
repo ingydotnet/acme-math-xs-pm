@@ -1,0 +1,32 @@
+=meta: 0.0.2
+
+name: Alt-Acme-Math-XS-ZillaDist
+version: 0.0.1
+abstract: Math is HARD (faster)
+homepage: https://metacpan.org/release/Alt-Acme-Math-XS-ZillaDist
+language: perl
+license: perl
+copyright: 2014
+
+author:
+  name: Ingy döt Net
+  email: ingy@cpan.org
+  homepage: http://ingy.net
+  github: ingydotnet
+  twitter: ingydotnet
+  freenode: ingy
+
+devel:
+  git: https://github.com/ingydotnet/alt-acme-math-xs-zilladist-pm
+  bug: https://github.com/ingydotnet/alt-acme-math-xs-zilladist-pm/issues
+  irc: irc.perl.org#inline
+
+requires:
+  perl: 5.8.1
+
+=zild:
+  libname: Acme::Math::XS
+  inline:
+    module: Acme::Math::XS
+  metanoindex:
+    lib/Acme: directory

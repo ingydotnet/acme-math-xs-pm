@@ -2,8 +2,8 @@ use strict;
 use ExtUtils::MakeMaker;
 
 WriteMakefile(
-    NAME => 'Acme::Math::XS::XS',
+    NAME => 'Acme::Math::XS',
     VERSION => '0.0.2',
-    ABSTRACT => 'Math is HARD (faster, old-school)',
+    ABSTRACT => 'Math is HARD (faster)',
     AUTHOR => 'Ingy döt Net <ingy@cpan.org>',
 );

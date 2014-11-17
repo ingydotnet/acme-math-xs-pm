@@ -1,0 +1,8 @@
+Changes
+lib/Acme/Math/XS.pod
+lib/Acme/Math/XS.pm
+Makefile.PL
+MANIFEST
+README
+t/test.t
+XS.xs

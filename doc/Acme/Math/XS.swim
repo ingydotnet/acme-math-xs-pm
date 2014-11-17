@@ -1,0 +1,43 @@
+Acme::Math::XS
+==============
+
+Math is HARD (faster)
+
+<badge travis coveralls ingydotnet/acme-math-xs-pm>
+
+= Synopsis
+
+  use Acme::Math::XS;
+
+  print "2 + 2 = ${\add(2, 2)}\n";
+
+= Description
+
+This is a tiny example XS module. It was written to show how one would write
+the same thing using [Inline::Module], [Inline::C] and [Inline].
+
+See these other example modules:
+
+* [Alt::Acme::Math::XS::EUMM]
+* [Alt::Acme::Math::XS::DistZilla]
+* [Alt::Acme::Math::XS::ZillaDist]
+* [Alt::Acme::Math::XS::ModuleBuild]
+* [Alt::Acme::Math::XS::ModuleInstall]
+* [Alt::Acme::Math::XS::CPP]
+
+The source code for all these modules is in one git repository, on separate
+branches: https://github.com/ingydotnet/acme-math-xs-pm
+
+= Authors
+
+* Ingy döt Net <ingy@cpan.org>
+* David Oswald <davido@cpan.org>
+
+= Copyright
+
+Copyright 2014. Ingy döt Net.
+
+This program is free software; you can redistribute it and/or modify it under
+the same terms as Perl itself.
+
+See http://www.perl.com/perl/misc/Artistic.html

@@ -9,11 +9,6 @@ perl:
 - '5.10'
 - '5.8'
 
-install:
-- cpanm --quiet --notest
-  Inline
-  Inline::C
-
 script:
 - perl Makefile.PL
 - make test

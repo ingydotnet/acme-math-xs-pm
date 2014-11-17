@@ -10,7 +10,7 @@ long subtract(long a, long b) {
     return a - b;
 }
 
-MODULE = Acme::Math::XS::XS  PACKAGE = Acme::Math::XS::XS
+MODULE = Acme::Math::XS  PACKAGE = Acme::Math::XS
 PROTOTYPES: DISABLE
 
 long

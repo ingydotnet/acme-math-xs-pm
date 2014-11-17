@@ -1,17 +1,31 @@
 NAME
-    Acme::Math::XS::XS - Math is HARD (faster, old-school)
+    Acme::Math::XS - Math is HARD (faster)
 
 SYNOPSIS
-        use Acme::Math::XS::XS;
+        use Acme::Math::XS;
 
         print "2 + 2 = ${\add(2, 2)}\n";
 
 DESCRIPTION
-    This is a smallest possible XS module using pure XS. It is meant to
-    compare to Acme::Math::XS, which is written using Inline::C.
+    This is a tiny example XS module. It was written to show how one would
+    write the same thing using Inline::Module, Inline::C and Inline.
 
-SEE ALSO
-    Acme::Math::XS
+    See these other example modules:
+
+    *   Alt::Acme::Math::XS::EUMM
+
+    *   Alt::Acme::Math::XS::DistZilla
+
+    *   Alt::Acme::Math::XS::ZillaDist
+
+    *   Alt::Acme::Math::XS::ModuleBuild
+
+    *   Alt::Acme::Math::XS::ModuleInstall
+
+    *   Alt::Acme::Math::XS::CPP
+
+    The source code for all these modules is in one git repository, on
+    separate branches: <https://github.com/ingydotnet/acme-math-xs-pm>
 
 AUTHORS
     *   Ingy döt Net <ingy@cpan.org>

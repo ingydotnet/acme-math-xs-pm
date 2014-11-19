@@ -6,7 +6,7 @@ use 5.008001;
 use ExtUtils::MakeMaker;
 WriteMakefile(
   NAME => 'Alt::Acme::Math::XS::EUMM',
-  VERSION => '0.0.1',
+  VERSION => '0.0.2',
   ABSTRACT => 'Math is HARD (faster)',
   AUTHOR => 'Ingy döt Net <ingy@cpan.org>',
   LICENSE => 'perl',

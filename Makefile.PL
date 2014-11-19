@@ -5,13 +5,14 @@ use 5.008001;
 
 use ExtUtils::MakeMaker;
 WriteMakefile(
-  NAME => 'Acme::Math::XS',
-  VERSION => '0.0.6',
+  NAME => 'Alt::Acme::Math::XS::EUMM',
+  VERSION => '0.0.1',
   ABSTRACT => 'Math is HARD (faster)',
   AUTHOR => 'Ingy döt Net <ingy@cpan.org>',
   LICENSE => 'perl',
   MIN_PERL_VERSION => '5.008001',
   test => { TESTS => 't/*.t' },
+  META_MERGE => { no_index => { directory => [ 'lib/Acme' ] }, },
 );
 
 use lib 'inc';

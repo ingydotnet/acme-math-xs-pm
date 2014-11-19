@@ -3,7 +3,10 @@ use warnings;
 
 use 5.008001;
 
+use lib 'inc';
 use ExtUtils::MakeMaker;
+use Inline::Module::MakeMaker -global;
+
 WriteMakefile(
   NAME => 'Alt::Acme::Math::XS::EUMM',
   VERSION => '0.0.3',
@@ -13,10 +16,10 @@ WriteMakefile(
   MIN_PERL_VERSION => '5.008001',
   test => { TESTS => 't/*.t' },
   META_MERGE => { no_index => { directory => [ 'lib/Acme' ] }, },
-);
-
-use lib 'inc';
-use Inline::Module;
-FixMakefile(
-  module => 'Acme::Math::XS',
+  postamble => {
+    inline => {
+      module => 'Acme::Math::XS',
+      # ilsm => 'Inline::C',
+    },
+  },
 );

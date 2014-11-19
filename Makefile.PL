@@ -4,9 +4,6 @@ use warnings;
 use 5.008001;
 
 use ExtUtils::MakeMaker;
-
-use lib 'inc'; use Inline::Module::MakeMaker;
-
 WriteMakefile(
   NAME => 'Acme::Math::XS',
   VERSION => '0.0.6',
@@ -17,6 +14,8 @@ WriteMakefile(
   test => { TESTS => 't/*.t' },
 );
 
+use lib 'inc';
+use Inline::Module::MakeMaker;
 FixMakefile(
   module => 'Acme::Math::XS',
 );

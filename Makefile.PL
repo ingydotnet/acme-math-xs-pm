@@ -5,11 +5,11 @@ use 5.008001;
 
 use lib 'inc';
 use ExtUtils::MakeMaker;
-use Inline::Module::MakeMaker -global;
+use Inline::Module;
 
 WriteMakefile(
   NAME => 'Alt::Acme::Math::XS::EUMM',
-  VERSION => '0.0.3',
+  VERSION => '0.0.4',
   ABSTRACT => 'Math is HARD (faster)',
   AUTHOR => 'Ingy döt Net <ingy@cpan.org>',
   LICENSE => 'perl',
@@ -19,7 +19,6 @@ WriteMakefile(
   postamble => {
     inline => {
       module => 'Acme::Math::XS',
-      # ilsm => 'Inline::C',
     },
   },
 );

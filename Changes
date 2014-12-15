@@ -1,4 +1,9 @@
 ---
+version: 0.0.2
+date:    Sun Dec 14 22:37:34 PST 2014
+changes:
+- Change to latest Inline::Module
+---
 version: 0.0.1
 date:    Sat Nov 22 06:48:50 UTC 2014
 changes:

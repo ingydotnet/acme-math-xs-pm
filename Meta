@@ -1,7 +1,7 @@
 =meta: 0.0.2
 
 name: Alt-Acme-Math-XS-ZillaDist
-version: 0.0.1
+version: 0.0.2
 abstract: Math is HARD (faster)
 homepage: https://metacpan.org/release/Alt-Acme-Math-XS-ZillaDist
 language: perl
@@ -27,7 +27,6 @@ requires:
 branch: zild
 
 =zild:
-  libname: Acme::Math::XS
   inline:
     module: Acme::Math::XS
   metanoindex:

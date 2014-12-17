@@ -1,12 +1,13 @@
 use strict; use warnings;
+use lib 'inc';
 use Module::Build::InlineModule;
 
 Module::Build::InlineModule->new(
     dist_name           => 'Alt-Acme-Math-XS-ModuleBuild',
     dist_abstract       => 'Math is HARD (faster)',
-    license             => 'perl',
     dist_author         => 'Ingy döt Net <ingy@cpan.org>',
-    dist_version        => '0.01',
+    dist_version        => '0.0.1',
+    license             => 'perl',
     requires => {
         'Test::More' => 0,
     },

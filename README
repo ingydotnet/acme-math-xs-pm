@@ -1,21 +1,21 @@
-Name
+NAME
     Acme::Math::XS - Math is HARD (faster)
 
-Synopsis
+SYNOPSIS
         use Acme::Math::XS;
 
         print "2 + 2 = ${\add(2, 2)}\n";
 
-Description
+DESCRIPTION
     This is the smallest possible XS module written with Inline::C.
 
-Authors
-    *   Ingy dÃ¶t Net <ingy@cpan.org>
+AUTHORS
+    *   Ingy döt Net <ingy@cpan.org>
 
     *   David Oswald <davido@cpan.org>
 
-Copyright
-    Copyright 2014. Ingy dÃ¶t Net.
+COPYRIGHT
+    Copyright 2014. Ingy döt Net.
 
     This program is free software; you can redistribute it and/or modify it
     under the same terms as Perl itself.

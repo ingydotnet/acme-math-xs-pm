@@ -1,7 +1,0 @@
-Build.PL
-doc/About.swim
-doc/Acme/Math/XS.swim
-lib/Acme/Math/XS.pm
-MANIFEST			This list of files
-README
-test/test.t

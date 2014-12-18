@@ -27,6 +27,7 @@ requires:
 branch: zild
 
 =zild:
+  libname: Acme::Math::XS
   inline:
     module: Acme::Math::XS
   metanoindex:

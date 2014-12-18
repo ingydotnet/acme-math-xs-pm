@@ -13,7 +13,19 @@ Math is HARD (faster)
 
 = Description
 
-This is the smallest possible XS module written with Inline::C.
+This is the smallest possible "XS" module written with [Inline::Module].
+
+It has Alt(ternate) modules for all the common CPAN module frameworks.
+
+= See
+
+* [Acme::Math::XS]
+* [Alt::Acme::Math::XS::EUMM]
+* [Alt::Acme::Math::XS::DistZilla]
+* [Alt::Acme::Math::XS::ZillaDist]
+* [Alt::Acme::Math::XS::ModuleBuild]
+* [Alt::Acme::Math::XS::ModuleInstall]
+* [Alt::Acme::Math::XS::CPP]
 
 = Authors
 

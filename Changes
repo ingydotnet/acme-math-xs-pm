@@ -1,4 +1,9 @@
 ---
+version: 0.0.3
+date:    Thu Dec 18 00:18:00 PST 2014
+changes:
+- Update stub module
+---
 version: 0.0.2
 date:    Wed Dec 17 23:53:32 PST 2014
 changes:

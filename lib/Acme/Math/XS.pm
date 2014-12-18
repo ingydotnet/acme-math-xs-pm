@@ -8,7 +8,7 @@ our @EXPORT = qw(
     subtract
 );
 
-use Acme::Math::XS::Inline C => <<'...';
+use Acme::Math::XS::Inline CPP => <<'...';
 long add(long a, long b) {
     return a + b;
 }

@@ -8,8 +8,8 @@ use ExtUtils::MakeMaker;
 use Inline::Module;
 
 WriteMakefile(
-  NAME => 'Alt::Acme::Math::XS::EUMM',
-  VERSION => '0.0.8',
+  NAME => 'Alt::Acme::Math::XS::CPP',
+  VERSION => '0.0.1',
   ABSTRACT => 'Math is HARD (faster!)',
   AUTHOR => 'Ingy döt Net <ingy@cpan.org>',
   LICENSE => 'perl',
@@ -19,6 +19,7 @@ WriteMakefile(
   postamble => {
     inline => {
       module => 'Acme::Math::XS',
+      ilsm => 'Inline::CPP',
     },
   },
 );

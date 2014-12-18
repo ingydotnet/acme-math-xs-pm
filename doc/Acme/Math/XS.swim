@@ -14,7 +14,7 @@ Math is HARD (faster!)
 = Description
 
 This is a tiny example "XS" module. It was written to show how one would write
-the same thing using [Inline::Module], [Inline], [Inline:C] and [Inline::CPP].
+the same thing using [Inline::Module], [Inline], [Inline::C] and [Inline::CPP].
 
 It has a pure "XS" version and "Alt"(ternate) modules for all the common CPAN
 module frameworks.

@@ -1,6 +1,6 @@
 ---
 version: 0.0.3
-date:    Thu Dec 18 10:53:35 PST 2014
+date:    Thu Dec 18 11:00:45 PST 2014
 changes:
 - Build with Inline::Module 0.25
 ---

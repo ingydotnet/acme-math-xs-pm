@@ -1,3 +1,9 @@
+# Instructions
+#
+#   git clone git@github.com:ingydotnet/acme-math-xs-pm master
+#   make -f master/doc/Makefile
+#
+
 doc: README
 
 README: /tmp/AcmeMathXS.pod

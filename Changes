@@ -1,4 +1,14 @@
 ---
+version: 0.0.8
+date:    Wed Dec 17 16:54:58 PST 2014
+changes:
+- Doc updates
+---
+version: 0.0.7
+date:    Wed Dec 16 16:54:35 PST 2014
+changes:
+- Release
+---
 version: 0.0.6
 date:    Thu Oct 30 20:31:20 UTC 2014
 changes:

@@ -1,4 +1,13 @@
 ---
+version: 0.0.4
+date:    Thu Dec 18 19:19:32 PST 2014
+changes:
+- Normalize the dist to match others
+- Update pod
+- Add travis file
+- Fix Makefile.PL
+- Add MANIFEST.SKIP
+---
 version: 0.0.3
 date:    Thu Dec 18 00:11:25 PST 2014
 changes:

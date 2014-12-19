@@ -1,4 +1,5 @@
 .git/
-.travis.yml
-Makefile
-MANIFEST.SKIP
+.travis.yml$
+Makefile$
+MANIFEST.SKIP$
+MYMETA

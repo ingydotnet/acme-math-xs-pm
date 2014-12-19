@@ -9,7 +9,7 @@ use Inline::Module;
 
 WriteMakefile(
   NAME => 'Alt::Acme::Math::XS::EUMM',
-  VERSION => '0.0.9',
+  VERSION => '0.0.10',
   ABSTRACT => 'Math is HARD (faster!)',
   AUTHOR => 'Ingy döt Net <ingy@cpan.org>',
   LICENSE => 'perl',

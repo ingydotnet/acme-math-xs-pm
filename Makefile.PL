@@ -1,4 +1,5 @@
-use strict; use warnings; use 5.008001; # use utf8; (currently breaks Module::Install)
+use 5.008001; use strict; use warnings; # use utf8; (currently breaks Module::Install)
+
 use inc::Module::Install;
 
 name 'Alt-Acme-Math-XS-ModuleInstall';

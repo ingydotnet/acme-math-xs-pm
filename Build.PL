@@ -11,6 +11,9 @@ Module::Build::InlineModule->new(
     requires => {
         'Test::More' => 0,
     },
+    configure_requires => {
+        'Module::Build' => 0.42,
+    },
     inline => {
         module => 'Acme::Math::XS',
     },

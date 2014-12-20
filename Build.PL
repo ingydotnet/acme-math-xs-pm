@@ -1,4 +1,4 @@
-use strict; use warnings;
+use strict; use warnings; use utf8; use 5.008001;
 use lib 'inc';
 use Module::Build::InlineModule;
 

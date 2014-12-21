@@ -1,4 +1,10 @@
 ---
+version: 0.0.9
+date:    Sun Dec 21 00:49:55 EST 2014
+changes:
+- Add MANIFEST.SKIP
+- Add utf8 to Makefile.PL
+---
 version: 0.0.8
 date:    Wed Dec 17 16:54:58 PST 2014
 changes:

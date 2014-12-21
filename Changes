@@ -1,4 +1,10 @@
 ---
+version: 0.0.4
+date:    Sun Dec 21 00:41:50 EST 2014
+changes:
+- Add MANIFEST.SKIP
+- Build.PL fixes
+---
 version: 0.0.3
 date:    Thu Dec 18 00:18:00 PST 2014
 changes:

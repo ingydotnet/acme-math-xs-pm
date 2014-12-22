@@ -1,0 +1,62 @@
+---
+version: 0.0.12
+date:    Sun Dec 21 00:36:05 EST 2014
+changes:
+- Add dev prereqs to Makefile.PL
+---
+version: 0.0.11
+date:    Thu Dec 18 18:59:44 PST 2014
+changes:
+- Fix MANIFEST.SKIP
+---
+version: 0.0.10
+date:    Thu Dec 18 18:08:58 PST 2014
+changes:
+- Build to work on MSWin32
+- Remove master/ and .travis.yml from dist
+- Update pod
+---
+version: 0.0.9
+date:    Wed Dec 17 23:49:19 PST 2014
+changes:
+- Update README
+---
+version: 0.0.8
+date:    Wed Dec 17 23:25:55 PST 2014
+changes:
+- Release with Inline-Module-0.26
+---
+version: 0.0.7
+date:    Tue Dec 16 23:37:39 EST 2014
+changes:
+- Rebuild with new Inline::Module to avoid test failures
+---
+version: 0.0.6
+date:    Sun Dec 14 22:20:03 PST 2014
+changes:
+- Release using latest Inline::Module
+---
+version: 0.0.5
+date:    Sat Dec  6 14:16:37 PST 2014
+changes:
+- Release using new autostub technique
+---
+version: 0.0.4
+date:    Sat Nov 22 05:06:27 UTC 2014
+changes:
+- Use new postamble style Inline::Module in Makefile.PL
+---
+version: 0.0.3
+date:    Wed Nov 19 06:32:20 UTC 2014
+changes:
+- Inline::Module::MakeMaker changed to Inline::Module in Makefile.PL
+---
+version: 0.0.2
+date:    Wed Nov 19 06:32:02 UTC 2014
+changes:
+- Second Release
+---
+version: 0.0.1
+date:    Wed Nov 19 04:55:09 UTC 2014
+changes:
+- First Release

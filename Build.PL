@@ -7,7 +7,7 @@ Module::Build::InlineModule->new(
     dist_name           => 'Alt-Acme-Math-XS-ModuleBuild',
     dist_abstract       => 'Math is HARD (faster)',
     dist_author         => 'Ingy döt Net <ingy@cpan.org>',
-    dist_version        => '0.0.4',
+    dist_version        => '0.0.5',
     license             => 'perl',
     requires => {
         'Test::More' => 0,

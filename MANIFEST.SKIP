@@ -1,7 +1,7 @@
 .git/
 .travis.yml$
 _build/
-Build
+Build$
 Makefile$
 MANIFEST.SKIP$
 MANIFEST.bak$

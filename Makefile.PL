@@ -5,7 +5,7 @@ use ExtUtils::MakeMaker;
 use Inline::Module;
 
 WriteMakefile(
-  NAME => 'Alt::Acme::Math::XS::EUMM',
+  NAME => 'Alt::Acme::Math::XS::External',
   VERSION => '0.0.12',
   ABSTRACT => 'Math is HARD (faster!)',
   AUTHOR => 'Ingy döt Net <ingy@cpan.org>',

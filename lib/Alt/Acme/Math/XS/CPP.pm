@@ -1,2 +1,2 @@
 package Alt::Acme::Math::XS::CPP;
-our $VERSION = '0.0.3';
+our $VERSION = '0.0.4';

@@ -1,4 +1,9 @@
 ---
+version: 0.0.4
+date:    Tue Dec 23 12:22:26 PST 2014
+changes:
+- Fix smoker bug w/ Inline-Module-0.29
+---
 version: 0.0.3
 date:    Sun Dec 21 00:23:47 EST 2014
 changes:

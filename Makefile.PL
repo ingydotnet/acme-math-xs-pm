@@ -31,6 +31,7 @@ WriteMakefile(
   },
   postamble => {
     inline => {
+      makestub => 1,
       module => 'Acme::Math::XS',
     },
   },

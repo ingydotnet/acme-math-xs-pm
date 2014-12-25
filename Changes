@@ -1,4 +1,9 @@
 ---
+version: 0.0.6
+date:    Wed Dec 24 23:50:47 PST 2014
+changes:
+- Build in .inline
+---
 version: 0.0.5
 date:    Sun Dec 21 00:46:21 EST 2014
 changes:

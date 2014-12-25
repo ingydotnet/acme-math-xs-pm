@@ -1,2 +1,3 @@
-.build
+.build/
 Alt-Acme-Math-XS-*
+.inline/

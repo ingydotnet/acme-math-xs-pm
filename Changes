@@ -1,4 +1,10 @@
 ---
+version: 0.0.5
+date:    Wed Dec 24 23:06:42 PST 2014
+changes:
+- Release with Inline-Module-0.30
+- Use .inline for build area
+---
 version: 0.0.4
 date:    Thu Dec 18 23:19:13 PST 2014
 changes:

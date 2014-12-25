@@ -1,4 +1,9 @@
 ---
+version: 0.0.5
+date:    Wed Dec 24 22:05:31 PST 2014
+changes:
+- Use makestub and .inline
+---
 version: 0.0.4
 date:    Tue Dec 23 12:22:26 PST 2014
 changes:

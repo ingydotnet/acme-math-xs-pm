@@ -24,7 +24,7 @@ WriteMakefile(
         develop => {
           requires => {
             'Inline::C' => '0.68',
-            'Inline::Module' => '0.30',
+            'Inline::Module' => '0.31',
         },
       },
     },

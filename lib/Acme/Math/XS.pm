@@ -1,0 +1,22 @@
+use strict; use warnings;
+package Acme::Math::XS;
+# our $VERSION = 'x.x.x';
+use Alt::Acme::Math::XS::EUMM;
+
+use Exporter 'import';
+our @EXPORT = qw(
+    add
+    subtract
+);
+
+use Inline::Module::LeanDist C => <<'...';
+long add(long a, long b) {
+    return a + b;
+}
+
+long subtract(long a, long b) {
+    return a - b;
+}
+...
+
+1;
